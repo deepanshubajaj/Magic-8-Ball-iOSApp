@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Magic_8_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Y9-i2-eR6">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WEt-Jm-lws">
+                                        <rect key="frame" x="18.333333333333343" y="0.0" width="356.33333333333326" height="110"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba1-9Q-oAd">
+                                                <rect key="frame" x="0.0" y="0.0" width="356.33333333333331" height="50"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Ask Me Anything...">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="0.7803921568627451" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="40" name="BradleyHandITCTT-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bm6-6Q-DgY">
+                                                <rect key="frame" x="0.0" y="50" width="356.33333333333331" height="60"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">I will Answer in
+yes, no or something...</string>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.89320969579999998" green="0.9524946809" blue="0.94594520329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="24" name="BradleyHandITCTT-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xQc-Y5-3og">
+                                        <rect key="frame" x="0.0" y="110" width="393" height="649"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zombieball0" translatesAutoresizingMaskIntoConstraints="NO" id="pRb-hc-6ET">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="649"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="97k-q3-41p">
+                                                <rect key="frame" x="108.00000000000001" y="535.66666666666663" width="177.33333333333337" height="113.33333333333337"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi8-Vy-kXL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="177.33333333333334" height="51.666666666666664"/>
+                                                        <color key="backgroundColor" red="1" green="0.95686274509803915" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" red="0.93333333333333335" green="0.30588235294117649" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Try it Out !">
+                                                                    <attributes>
+                                                                        <font key="NSFont" size="30" name="BradleyHandITCTT-Bold"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                                <integer key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qmc-Dk-X1a"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cal-qG-PZp">
+                                                        <rect key="frame" x="0.0" y="61.666666666666742" width="177.33333333333334" height="51.666666666666657"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="&lt;&lt; Retry">
+                                                                    <attributes>
+                                                                        <font key="NSFont" size="30" name="BradleyHandITCTT-Bold"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="njl-xC-Ngs"/>
+                                                            <action selector="retryButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y5K-66-r9Y"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="pRb-hc-6ET" firstAttribute="leading" secondItem="xQc-Y5-3og" secondAttribute="leading" id="2EV-NU-o7C"/>
+                                            <constraint firstAttribute="trailing" secondItem="pRb-hc-6ET" secondAttribute="trailing" id="8hP-Aw-GPz"/>
+                                            <constraint firstItem="97k-q3-41p" firstAttribute="bottom" secondItem="pRb-hc-6ET" secondAttribute="bottom" id="8p6-pY-rr1"/>
+                                            <constraint firstAttribute="bottom" secondItem="pRb-hc-6ET" secondAttribute="bottom" id="CCx-Cv-r7Z"/>
+                                            <constraint firstItem="97k-q3-41p" firstAttribute="centerX" secondItem="pRb-hc-6ET" secondAttribute="centerX" id="CQh-jU-UiU"/>
+                                            <constraint firstItem="97k-q3-41p" firstAttribute="centerX" secondItem="xQc-Y5-3og" secondAttribute="centerX" id="uVL-rZ-9uY"/>
+                                            <constraint firstItem="pRb-hc-6ET" firstAttribute="top" secondItem="xQc-Y5-3og" secondAttribute="top" id="uam-Kb-489"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="xQc-Y5-3og" secondAttribute="trailing" id="0rM-m1-NDZ"/>
+                                    <constraint firstItem="xQc-Y5-3og" firstAttribute="leading" secondItem="1Y9-i2-eR6" secondAttribute="leading" id="LEV-iK-DmN"/>
+                                    <constraint firstItem="xQc-Y5-3og" firstAttribute="top" secondItem="WEt-Jm-lws" secondAttribute="bottom" id="Lgl-ds-V0S"/>
+                                    <constraint firstAttribute="bottom" secondItem="xQc-Y5-3og" secondAttribute="bottom" id="RRs-i9-VvX"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.12941176470588234" green="0.61176470588235299" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1Y9-i2-eR6" secondAttribute="trailing" id="7mi-Fb-K3w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Y9-i2-eR6" secondAttribute="bottom" id="BSO-Hk-zu0"/>
+                            <constraint firstItem="1Y9-i2-eR6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ear-Y6-jrc"/>
+                            <constraint firstItem="1Y9-i2-eR6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="f20-Ar-grg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="zombieHandImageView" destination="pRb-hc-6ET" id="uIK-wu-PPt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.572519083969468" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="zombieball0" width="375" height="500"/>
+    </resources>
+</document>
