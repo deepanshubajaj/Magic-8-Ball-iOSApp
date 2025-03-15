@@ -1,13 +1,12 @@
 <h1 align="center">Magic 8 Ball - iOS App</h1>
 
-**Magic 8 Ball** is an iOS app that provides answers to all of life's tough questions, just like the classic Magic 8 Ball toy. Shake your device or tap the button, and the app will give you a random answer to guide you through any decision-making dilemma! Whether it's a yes, no, or maybe, you'll always have an answer when you need it most!
+**Magic 8 Ball** is an iOS app that provides answers to all of life's tough questions, just like the classic Magic 8 Ball toy. Tap the button, and the app will give you a random answer to guide you through any decision-making dilemma! Whether it's a yes, no, or maybe, you'll always have an answer when you need it most!
 
 ## Features :
 
-- **Ask the Magic 8 Ball**: Tap the "Ask" button or shake your phone to receive an answer to your question.
+- **Ask the Magic 8 Ball**: Tap the "Ask" button to receive an answer to your question.
 - **Random Answers**: The app provides randomized responses like "Yes," "No," "Maybe," and more, just like the classic Magic 8 Ball.
 - **Interactive UI**: Simple and fun design with a smooth interface that makes asking questions enjoyable.
-- **Shake to Get an Answer**: Just shake your phone to ask the Magic 8 Ball and get an answer instantly.
 
 ## Installation :
 
