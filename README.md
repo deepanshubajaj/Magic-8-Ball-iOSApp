@@ -20,7 +20,7 @@ To run this project locally:
 
 2. Open the project in Xcode:
     ```bash
-    open Magic8Ball.xcodeproj
+    open Magic 8 Ball.xcodeproj
     ```
 
 3. Build and run the app on a simulator or physical device.
@@ -39,22 +39,30 @@ To run this project locally:
 ## Screenshots :
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/landscapeViewSS.jpg" alt="Splash Screen 1" />
-  *Splash screen displayed upon app launch in Landscape mode.*
+  <img src="ProjectOutputs/Snapshots/SScreen.jpg" alt="Splash Screen" />
+</p>
+<p align="center">
+  *Splash screen displayed upon app launch.*
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/landscapeViewApp.jpg" alt="App Screenshot 1" />
-  *Screenshot of the Magic 8 Ball app showing the main question-and-answer screen in Landscape mode.*
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="ProjectOutputs/Snapshots/appS1.jpg" alt="App Screen 1" width="30%" />
+    <img src="ProjectOutputs/Snapshots/appS2.jpg" alt="App Screen 2" width="30%" />
+    <img src="ProjectOutputs/Snapshots/appS3.jpg" alt="App Screen 3" width="30%" />
+  </div>
 </p>
 
 <p align="center">
-  <img src="ProjectOutputs/Snapshots/portraitViewSS.jpg" alt="Splash Screen 2" width="300" />
-  <img src="ProjectOutputs/Snapshots/portraitViewApp.jpg" alt="App Screenshot 2" width="300" />
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="ProjectOutputs/Snapshots/appS4.jpg" alt="App Screen 4" width="30%" />
+    <img src="ProjectOutputs/Snapshots/appS5.jpg" alt="App Screen 5" width="30%" />
+    <img src="ProjectOutputs/Snapshots/appS6.jpg" alt="App Screen 6" width="30%" />
+  </div>
 </p>
 
 <p align="center">
-  *Splash screen displayed upon app launch in Portrait mode.* &nbsp;&nbsp; *Screenshot of the main screen showing the "Ask the Magic 8 Ball" interface in Portrait mode.*
+  *Screenshot of the Magic 8 Ball app showing the main screen.*
 </p>
 
 ## App Icon :
@@ -63,7 +71,7 @@ To run this project locally:
   <img src="ProjectOutputs/Snapshots/appIcon.png" alt="App Icon" />
 </p>
 <p align="center">
-  *The app icon represents the theme of the Magic 8 Ball toy.*
+  *The app icon represents the theme of the Magic 8 Ball.*
 </p>
 
 ## Video Demo :
